@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>capsule_pose_estimation</name>
+  <version>0.0.0</version>
+  <description>Pose estimation for U-Shift II capsules.</description>
+  <author>Oliver Schumann</author>
+  <author>Dominik Authaler</author>
+  <maintainer email="oliver.schumann@uni-ulm.de">Oliver Schumann</maintainer>
+  <maintainer email="dominik.authaler@uni-ulm.de">Dominik Authaler</maintainer>
+  <license>Apache License Version 2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>aduulm_cmake_tools</depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cv_bridge</depend>
+
+  <depend>aduulm_logger_lib</depend>
+  <depend>aduulm_tools</depend>
+  <depend>aduulm_tools_lib</depend>
+  <depend>aduulm_gpu_shared_mem</depend>
+  <depend>aduulm_gpu_shared_mem_interfaces</depend>
+  <depend>aduulm_object_interfaces</depend>
+  <depend>aduulm_object_types_lib</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2</depend>
+  <depend>gpu_shared_mem_handler</depend>
+  <depend>gpu_cpu_exchange</depend>
+  <depend>gpu_cpu_image_publisher</depend>
+  <depend>gpu_image_subscriber</depend>
+
+  <depend>OpenCV</depend>
+
+  <depend>capsule_pose_estimation_lib</depend>
+
+  <depend>pcl</depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_ros</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

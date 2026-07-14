@@ -1,0 +1,6 @@
+checker_size: 0.130
+marker_size: 0.097
+num_cols: 10
+num_rows: 6
+use_for_refinement: True
+main_marker_size: 0.194

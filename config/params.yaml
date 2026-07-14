@@ -1,0 +1,20 @@
+camera:
+  use_gpu: True
+  single_marker_id_threshold: 40
+
+  meas_uncertainty:
+    reduction_via_board: 0.5
+    position:
+      base: 0.03
+      distance_scaling: 0.01
+      angle_scaling: 0.2
+    orientation:
+      base: 0.78
+      distance_scaling: 0.05
+      angle_scaling: 0.01
+
+lidar:
+
+target:
+
+

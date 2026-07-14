@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>capsule_pose_estimation_lib</name>
+  <version>0.0.0</version>
+  <description>Pose estimation for U-Shift II capsules.</description>
+  <author>Oliver Schumann</author>
+  <author>Dominik Authaler</author>
+  <maintainer email="oliver.schumann@uni-ulm.de">Oliver Schumann</maintainer>
+  <maintainer email="dominik.authaler@uni-ulm.de">Dominik Authaler</maintainer>
+  <license>Apache License Version 2.0</license>
+
+  <build_depend>aduulm_cmake_tools</build_depend>
+
+  <depend>aduulm_logger_lib</depend>
+  <depend>aduulm_measurement_types_lib</depend>
+  <depend>OpenCV</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
